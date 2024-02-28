@@ -8,7 +8,7 @@ public class Person {
 
     // Method to store Person age and name;
     public void personDetails() {
-        // Defaut age is 18
+        // Defaut age is 18 given in question
         age = 18;
         Scanner sc = new Scanner(System.in);
         // To get person name as input
@@ -20,9 +20,9 @@ public class Person {
     }
 
     public static void main(String[] args) {
-        //Object of Person class 
+        // Object of Person class 
         Person p = new Person();
-        //Method called
+        // Method called
         p.personDetails();
     }
 }

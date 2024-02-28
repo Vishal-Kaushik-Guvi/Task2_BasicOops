@@ -24,18 +24,18 @@ public class ProductMain {
         int products = 5;
         // Array of our product class
         Product[] productsArray = new Product[products];
-        // ProductId in Input
         int[] pid = new int[products];
-        // Product Price in Input
         int[] price = new int[products];
-        // Product Quantity in Input
         int[] quantity = new int[products];
 
         for (int i = 0; i < products; i++) {
+            // ProductId in Input
             System.out.print("Enter the ProductId: ");
             pid[i] = sc.nextInt();
+            // Product Price in Input
             System.out.print("Enter the Product Price: ");
             price[i] = sc.nextInt();
+            // Product Quantity in Input
             System.out.print("Enter the Product Quantity: ");
             quantity[i] = sc.nextInt();
 
